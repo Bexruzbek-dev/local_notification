@@ -12,7 +12,7 @@ class PomodoroScreen extends StatefulWidget {
 
 class _PomodoroScreenState extends State<PomodoroScreen> {
   Timer? _timer;
-  int _remainingSeconds = 15;
+  int _remainingSeconds = 5;
   bool _isRunning = false;
 
   void _startCountTime() async {
@@ -27,7 +27,7 @@ class _PomodoroScreenState extends State<PomodoroScreen> {
           _timer?.cancel();
           LocalNotificationService.pomodoroNotification();
           setState(() {
-            _remainingSeconds = 15;
+            _remainingSeconds = 5;
             _isRunning = false;
           });
         }

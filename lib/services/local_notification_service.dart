@@ -123,7 +123,7 @@ class LocalNotificationService {
     await _localNotification.show(
       0,
       "Pomodoro",
-      "Dam olish vaqtingiz keldi.",
+      "Tanaffus olish kerak",
       notificationDetails,
     );
   }

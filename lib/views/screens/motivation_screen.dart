@@ -25,7 +25,7 @@ class _MotivationScreenState extends State<MotivationScreen> {
         backgroundColor: Colors.blue,
         centerTitle: true,
         title: const Text(
-          "Motivation Screen",
+          "Motivations",
           style: TextStyle(
             fontFamily: 'Extrag',
             color: Colors.white,
